@@ -1,0 +1,108 @@
+
+{
+    "intents": [
+        {
+            "tag": "salutations",
+            "patterns": [ "Bonjour", "Cv?", "Comment allez vous?", "Hey", "Hola", "Hello" ],
+            "responses": [ "Bonjour, comment je peux vous aider", "ravi de vous voir" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "Au revoir",
+            "patterns": [ "Bye", "A bientôt", "A la prochaine", "ce fût un plaisir" ],
+            "responses": [ "A la prochaine!", "Bonne journée", "Bye!" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "Remerciement",
+            "patterns": [ "Merci", "vous m'avez aidez, merci", "Génial, merci" ],
+            "responses": [ "Heureux d'avoir aidé!", "A tout moment!", "Avec plaisir" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "noréponse",
+            "patterns": [],
+            "responses": [ "Désolé, j'ai pas pu vous comprendre", "SVP donner moi plus d'informations", "Je suis pas sur d'avoir bien compris" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "options",
+            "patterns": [ "Comment vous pouvez m'aider?", "Qu'est ce que vous pouvez faire pour moi?" ],
+            "responses": [ "Je peux vous aider à répondre aux questions concernant l'investissement en Tunisie" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "Avtivités",
+            "patterns": [ "Comment choisir une activité en Tunisie ?" ],
+            "responses": [
+                "En application des dispositions de l’article 4 de la loi de l’investissement, une unité de gestion par objectif a été chargée de fixer la nomenclature des activités tunisienne. La Nomenclature des activités représente le référentiel national unique et actualisé de toutes les activités économiques. Elle permet leur classement dans tous les secteurs suivant des catégories harmonisées sur le plan national et comparable sur le plan international, et ce notamment par la codification des activités des entreprises économiques et l’élaboration des bases de données statistiques relatives aux activités économiques et sociales."
+            ],
+            "context": [ "" ]
+        },
+
+        {
+            "tag": "Liste Avtivités",
+            "patterns": [ "Quelle est la liste des activités en Tunisie?" ],
+            "responses": [
+                "La liste des activités se présente comme suit :Industries extractives (minéraux bruts et autres), Industries manufacturières, Production et distribution d'éléctricité, de gaz, de vapeur et air conditionné, Construction, Commerce et réparation d'automobiles et motocycles, Transport et entreposage, Hébergement et restauration, Information et communication, Activités financières et d'assurances, Activités immobilières, Activités spécialisées scientifiques et techniques, Activités de services administratifs et de soutien, Enseignement, Santé humaine et action sociale"
+            ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "Forme juridique",
+            "patterns": [ "Quels sont les Formes juridiques possibles?" ],
+            "responses": [
+                "Les formes juridiques possibles sont les suivants: Personne physique, SARL, SUARL, SOCIETE ANONYME, Personne phsique P.P"
+            ],
+            "context": [ "" ]
+        },
+
+        {
+            "tag": "SARL ",
+            "patterns": [ "Que signifie SARL?, C'est quoi SARL?" ],
+            "responses": [
+                "Une Société à responsabilité limitée est la forme d'entreprises la plus répandues en Tunisie. Le capital social minimum requis pour la créer est de 1000 DT, il est divisé en parts sociales supérieurs ou égales à 5 DT. Pour la constituer les associées doivent être de minimum 2 et de maximum 50. La particularité avantageuse de la SARL est que ces associés possèdent une responsabilité limitée à leurs apports. Son immatriculation au registre national des entreprises est obligatoire. Un commissaire aux comptes doit affecter à la SARL si deux des trois critères suivants sont remplis : Un chiffre d'affaires supérieur à 300 000D T, bilan supérieur à 100 000 DT, Un nombre d'employés supérieur ou égale à 10."
+            ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "SUARL ",
+            "patterns": [ "Que signifie SUARL?, C'est quoi SUARL?" ],
+            "responses": [ "On désigne par société unipersonnelle à responsabilité limitée, toute société composée uniquement d’une personne. Cet associé unique est alors forcément une personne physique. Cet associé est responsable de la gestion de la société d’une manière personnel et détient ainsi tous les pouvoirs dévolus au gérant d’une société à responsabilité limitée. Notez bien qui'il n'est pas possible de créer plusieurs SUARL, même, s’il s\\’agit d’activités différentes conformément aux dispositions du code de commerce." ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "SA ",
+            "patterns": [ "Que signifie SA?", "C\\'est quoi SA?", "Que signifie société anonyme? ", "C'est quoi société anonyme?" ],
+            "responses": [ "société anonyme, est une société de capitaux. C’est une entreprise qui est représentée par un directeur général, qui est nommé par le conseil d’administration. C’est alors le représentant légal de la structure. Elle se repose principalement sur les mêmes fonctionnalités de constitution qu’une Société à Responsabilité Limitée, ou qu’une Société par Actions Simplifiées. C'est une société à responsabilité limitée, c’est-à-dire que la responsabilité des actionnaires se limite à leurs apports en capital. En effet, si un actionnaire a acheté des actions pour une valeur de 100 dinars, en cas de faillite de l’entreprise sa responsabilité financière sera limitée à uniquement 100 dinars. Cette forme de société n’est dissoute que par le décès, par l’incapacité ou la faillite de cette personne responsable." ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "Capital social",
+            "patterns": [ "Quels sont les types des apports?" ],
+            "responses": [
+                "Les apports en numéraire : l’apport doit être entièrement libéré auprès d’une institution financière avant le dépôt d’immatriculation au registre de commerce. Lorsque les apports sont en nature, «L'acte constitutif de la société doit comporter une évaluation de tout apport en nature. L'évaluation de l'apport en nature doit être faite par un commissaire aux apports désigné à l'unanimité des associés, ou par le tribunal à la demande des associés. Les apports qui ne dépassant pas trois mille dinars, peuvent être déterminés sans le recours au commissaire. L’apport peut aussi être en industrie ; dans ce cas l’évaluation de sa valeur et la fixation de la part qu'il génère dans les bénéfices, se font de commun accord entre les associés dans le cadre de l'acte constitutif. Cet apport n'entre pas dans la composition du capital de la société."
+            ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "Régime d'investissement",
+            "patterns": [ "Quel est le différence entre résident et non résident?" ],
+            "responses": ["RESIDENT : Personne qui vit à un endroit particulier pendant une période prolongée ou qui y est né. NON RESIDENT : Les entreprises totalement exportatrices sont considérées non résidentes lorsque leur capital est détenu par des non-résidents tunisiens ou étrangers au moyen d'une importation de devises convertibles au moins égale à 66% du capital."
+            ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "nombre d'expats autorisés",
+            "patterns": [ "Combien une entreprise exportatrice peut-elle recruter de personnel étranger?" ],
+            "responses": [ "Les entreprises totalement exportatrices peuvent recruter des agents de direction et d'encadrement de nationalité étrangère dans la limite de quatre personnes pour chaque entreprise." ],
+            "context": [ "" ]
+        }
+    ]
+
+}
+
+
+
+
+
